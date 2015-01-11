@@ -40,6 +40,9 @@ BOARD_BATTERY_DEVICE_NAME := "battery"
 # inherit from the proprietary version
 -include vendor/samsung/kona/BoardConfigVendor.mk
 
+# CM Hardware
+BOARD_HARDWARE_CLASS += device/samsung/kona-common/cmhw
+
 # Selinux
 BOARD_SEPOLICY_DIRS += \
     device/samsung/kona-common/selinux
