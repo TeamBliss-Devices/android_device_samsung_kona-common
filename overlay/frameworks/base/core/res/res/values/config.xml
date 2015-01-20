@@ -110,4 +110,7 @@
 
     <!-- Enable lockscreen translucent decor -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
+    
+    <!-- Hardware keys on/off option -->
+    <bool name="config_hwKeysPref">true</bool>    
 </resources>

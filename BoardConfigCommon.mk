@@ -61,4 +61,7 @@ BOARD_SEPOLICY_UNION += \
     system.te \
     ueventd.te \
     wpa_supplicant.te
+    
+# BlissPop changelog flag
+BLISS_CHANGELOG := true    
 
