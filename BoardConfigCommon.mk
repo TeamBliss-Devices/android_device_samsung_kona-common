@@ -63,5 +63,5 @@ BOARD_SEPOLICY_UNION += \
     wpa_supplicant.te
     
 # BlissPop changelog flag
-BLISS_CHANGELOG := true    
+BLISS_CHANGELOG := true     
 
