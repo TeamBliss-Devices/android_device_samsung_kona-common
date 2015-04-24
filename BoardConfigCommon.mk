@@ -48,6 +48,7 @@ BOARD_SEPOLICY_DIRS += \
     device/samsung/kona-common/selinux
 
 BOARD_SEPOLICY_UNION += \
+    bluetooth.te \
     file_contexts \
     te_macros \
     device.te \
@@ -57,12 +58,15 @@ BOARD_SEPOLICY_UNION += \
     init.te \
     kickstart.te \
     mediaserver.te \
+    netd.te \
     netmgrd.te \
     qmux.te \
     rild.te \
     secril.te \
+    sysinit.te \
     system.te \
     ueventd.te \
+    untrusted_app.te \
     wpa_supplicant.te
     
 # BlissPop changelog flag
